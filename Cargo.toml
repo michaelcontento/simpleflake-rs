@@ -1,5 +1,8 @@
 [package]
 
-name = "simpleflake-rs"
+name = "simpleflake"
 version = "0.0.1"
 authors = ["Michael Contento <michaelcontento@gmail.com>"]
+
+[dependencies]
+time = "*"
