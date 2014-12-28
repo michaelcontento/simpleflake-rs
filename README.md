@@ -11,7 +11,7 @@ You can read an overview of what this does and why it came into being at the [Sa
 
 Just add this crate as a dependency to your `Cargo.toml`:
 
-```
+```ini
 [dependencies.simpleflake]
 git = "https://github.com/michaelcontento/simpleflake-rs.git"
 ```
