@@ -7,10 +7,19 @@ Distributed ID generation in rust for the lazy. Based on the awesome [python imp
 
 You can read an overview of what this does and why it came into being at the [Sawdust Software Blog][desc].
 
+# Installation
+
+Just add this crate as a dependency to your `Cargo.toml`:
+
+```
+[dependencies.simpleflake]
+git = "https://github.com/michaelcontento/simpleflake-rs.git"
+```
+
 # Usage
 
 ```rust
-require "simpleflake.php";
+extern crate simpleflake;
 
 let new_id = simpleflake::new();
 println!("generated id: {}", new_id);
