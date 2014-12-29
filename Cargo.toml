@@ -3,6 +3,11 @@
 name = "simpleflake"
 version = "0.0.1"
 authors = ["Michael Contento <michaelcontento@gmail.com>"]
+description = "Distributed ID generation in Rust for the lazy."
+repository = "https://github.com/michaelcontento/simpleflake-rs"
+readme = "README.md"
+keywords = ["simpleflake", "uuid", "id"]
+license = "MIT"
 
 [dependencies]
 time = "*"
