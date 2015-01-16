@@ -27,3 +27,11 @@ fn test_parse() {
     assert_eq!(parts.timestamp, 1409004570.859);
     assert_eq!(parts.random_bits, 2081970);
 }
+
+#[test]
+fn test_id_can_be_printed() {
+    let id = 3878068333444056242;
+    let parts = simpleflake::parse(id);
+
+    println!("{:?}", parts);
+}
