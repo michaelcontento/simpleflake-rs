@@ -1,17 +1,16 @@
 extern crate time;
-use std::rand;
+extern crate rand;
 
 static EPOCH:f64 = 946702800.0;
 static TIMESTAMP_SHIFT:usize = 23;
 static RANDOM_MAX_VALUE:u32 = 4194303;
 
-#[derive(Copy, Show)]
+#[derive(Copy, Debug)]
 pub struct Id {
     pub timestamp: f64,
     pub random_bits: u32,
 }
 
-#[allow(unstable)]
 pub fn new() -> u64 {
     let now = time_as_float(time::get_time());
     let timestamp = ((now - EPOCH) * 1000.0) as u64;
