@@ -1,7 +1,7 @@
 [package]
 
 name = "simpleflake"
-version = "0.0.3"
+version = "0.0.4"
 authors = ["Michael Contento <michaelcontento@gmail.com>"]
 description = "Distributed ID generation in Rust for the lazy."
 repository = "https://github.com/michaelcontento/simpleflake-rs"
