@@ -5,7 +5,7 @@ static EPOCH:f64 = 946702800.0;
 static TIMESTAMP_SHIFT:usize = 23;
 static RANDOM_MAX_VALUE:u32 = 4194303;
 
-#[derive(Copy, Debug)]
+#[derive(Clone, Copy, Debug)]
 pub struct Id {
     pub timestamp: f64,
     pub random_bits: u32,
