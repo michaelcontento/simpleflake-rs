@@ -1,6 +1,6 @@
 # simpleflake-rs
 
-Travis Status: [![Build Status](https://secure.travis-ci.org/michaelcontento/simpleflake-rs.png?branch=master)](http://travis-ci.org/michaelcontento/simpleflake-rs)
+[![Build Status](https://secure.travis-ci.org/michaelcontento/simpleflake-rs.png?branch=master)](http://travis-ci.org/michaelcontento/simpleflake-rs) [![](https://meritbadge.herokuapp.com/simpleflake)](https://crates.io/crates/simpleflake)
 
 
 Distributed ID generation in rust for the lazy. Based on the awesome [python implementation][simpleflake-py] from [SawdustSoftware][].
